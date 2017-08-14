@@ -1,10 +1,11 @@
 name             'chef-server-blueprint'
 maintainer       'Ryan J. Geyer'
 maintainer_email 'me@ryangeyer.com'
-license          'All rights reserved'
+license          'Apache-2.0'
 description      'Installs/Configures chef-server-blueprint'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '1.0.4'
+chef_version     '>= 12.0'
 
 depends "marker"
 depends "packagecloud"
